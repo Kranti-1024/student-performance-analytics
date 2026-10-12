@@ -42,4 +42,4 @@ student-performance-analytics/
 While building this project, I practiced Python functions, loops, conditions, Pandas DataFrames, CSV file handling, and basic data analysis.
 
 ## GitHub Repository
-**Repository Link:** Add your GitHub repository URL here after uploading the project.
+**Repository Link:** https://github.com/Kranti-1024/student-performance-analytics
