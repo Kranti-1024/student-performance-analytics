@@ -1,45 +1,20 @@
-# Student Performance Analytics System
+# Student Performance Analytics System — Web Edition
 
-## About the Project
-This is a simple Python project that analyzes student performance using Pandas. It calculates marks, assigns grades, checks pass/fail results, and provides an overview of class performance.
+A static frontend version of my student analytics project. It uses HTML, CSS and JavaScript and can be deployed directly to Netlify.
 
 ## Features
-- Stores student details, department, attendance, and subject marks.
-- Calculates total and average marks.
-- Assigns grades based on average marks.
-- Marks students as Pass or Fail if they score below 40 in any subject.
-- Finds the highest- and lowest-performing students.
-- Shows subject-wise averages, highest and lowest marks.
-- Displays the top 3 performers.
-- Calculates class average, average attendance, and pass/fail counts.
+- Dashboard showing student count, class average, attendance and pass rate
+- Subject-wise average charts and top 3 performers
+- Search students and filter by department or result
+- Sort table columns by clicking their headings
+- Import a CSV and export a report as CSV
 
-## Technologies Used
-- Python
-- Pandas
-- CSV for storing student records
+## Deploy on Netlify
+1. Download and extract this ZIP.
+2. Open Netlify and choose **Add new site → Deploy manually**.
+3. Drag the extracted folder containing `index.html` into the deploy area.
+4. Open the URL Netlify provides.
 
-## How to Run
-1. Install Pandas:
-   ```bash
-   pip install pandas
-   ```
-2. Run the program:
-   ```bash
-   python main.py
-   ```
+No build command is required.
 
-The program creates `student.csv`, reads the student data, and displays the analysis.
-
-## Project Structure
-```text
-student-performance-analytics/
-├── main.py
-├── student.csv
-└── README.md
-```
-
-## What I Learned
-While building this project, I practiced Python functions, loops, conditions, Pandas DataFrames, CSV file handling, and basic data analysis.
-
-## GitHub Repository
-**Repository Link:** https://github.com/Kranti-1024/student-performance-analytics
+CSV imports need these columns: `name`, `ID`, `DEPT`, `ATDN`, `DS`, `AI`, `ML`, `DL`. Imported data updates the current browser session only; it is not saved to a server.
